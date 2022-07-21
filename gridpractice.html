@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Practice</title>
+</head>
+<body >
+    <!-- strat by making grid  -->
+
+    <!-- A grid has 2 sections 1- display which is grid in style 2nd grid template which has column  -->
+<div style=
+"display:Grid;
+grid-template-columns: 100px 100px;">
+    <div style="background-color:lightblue ;" > DIV 1</div>
+    <div style="background-color:lightpink ;"> DIV 2 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, nam.</p></div>
+</div>
+
+<div style=
+"
+display:Grid;
+grid-template-columns: 100px 100px 50px; margin-top: 20px;">
+    <div style="background-color:lightblue ;" > DIV 1</div>
+    <div style="background-color:lightpink ;"> DIV 2 <p>This is a grid</p></div>
+    <div style="background-color:lightgray ;"> DIV 3 <p>This is a grid</p></div>
+    <div style="background-color:lightgray ;"> DIV 3 <p>This is a grid</p></div>
+    <div style="background-color:lightgray ;"> DIV 3 <p>This is a grid</p></div>
+    <div style="background-color:lightgray ;"> DIV 3 <p>This is a grid</p></div>
+</div>
+
+<!-- Usage of 1fr this value takes up the remaining space in the webpage -->
+<div style=
+"
+display:Grid;
+grid-template-columns: 100px 1fr; margin-top: 20px;">
+    <div style="background-color:lightblue ;" > DIV 1</div>
+    <div style="background-color:lightpink ;"> DIV 2 </div>
+    
+
+</div>
+<!-- fr divides the remaing space in ratios -->
+
+<div style=
+"
+display:Grid;
+grid-template-columns: 100px 1fr 1fr 2fr; margin-top: 20px;">
+    <div style="background-color:lightblue ;" > DIV 1</div>
+    <div style="background-color:lightpink ;"> DIV 2 </div>
+    <div style="background-color:lightblue ;" > DIV 1</div>
+    <div style="background-color:lightpink ;"> DIV 2 </div>
+    
+
+</div>
+
+<div style=
+"
+display:Grid;
+column-gap: 20px;
+row-gap: 35px;
+grid-template-columns:  1fr 1fr 1fr; margin-top: 20px; height: 300px;">
+    <div style="background-color:lightblue ;" > DIV 1</div>
+    <div style="background-color:lightpink ;"> DIV 2 </div>
+    <div style="background-color:lightblue ;" > DIV 3</div>
+    <div style="background-color:lightblue ;" > DIV 4</div>
+    <div style="background-color:lightpink ;"> DIV 5</div>
+    <div style="background-color:lightblue ;" > DIV 6</div>
+
+</div>
+
+
+
+
+
+
+    
+</body>
+</html>

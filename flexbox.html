@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<body>
+    <!-- 1st div is the flexbox  -->
+<div style="
+display: flex; 
+flex-direction: row;">
+
+    <div style="background-color:lightblue ;" > DIV 1</div>
+    <div style="background-color:lightpink ;"> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, inventore.</p> </div>
+    <div style="background-color:lightblue ;" > DIV 1</div>
+</div>
+<div style="
+
+margin-top: 10px;
+display: flex; 
+flex-direction: row;">
+
+    <div style="background-color:lightblue ;width: 100px;" > DIV 1</div>
+    <div style="background-color:lightpink ;"> DIV2 <p>Text</p> </div>
+    <!-- flex 1 is same as 1fr  -->
+    <div style="background-color:lightblue ; flex: 1;" > DIV 1</div>
+</div>
+<div style="
+
+margin-top: 10px;
+display: flex; 
+flex-direction: row;">
+
+    <div style="background-color:lightblue ;width: 100px;" > DIV 1</div>
+    <div style="background-color:lightpink ;"> DIV2 <p>Text</p> </div>
+    <!-- flex 1 is same as 1fr  -->
+    <div style="background-color:lightblue ; flex: 1;" > DIV 1</div>
+    <div style="background-color:lightpink; flex: 2;" > DIV 1</div>
+</div>
+<div style="
+margin-top: 20px;
+height: 100px;
+border-color: rgb(75, 61, 61);
+border-style: solid;
+border-width: 5px;
+justify-content: center;
+
+
+display: flex; 
+flex-direction: row;">
+
+    <div style="background-color:lightblue ;width: 100px;" > DIV 1</div>
+    <div style="background-color:lightpink ; width: 100px"> DIV2  </div>
+    <!-- flex 1 is same as 1fr  -->
+    <div style="background-color:lightblue ; width: 100px;" > DIV 3</div>
+    <div style="background-color:lightpink; width: 100px;" > DIV 4</div>
+</div>
+<div style="
+margin-top: 20px;
+height: 100px;
+border-color: rgb(75, 61, 61);
+border-style: solid;
+border-width: 5px;
+justify-content: space-between;
+
+
+
+display: flex; 
+flex-direction: row;">
+
+    <div style="background-color:lightblue ;width: 100px;" > DIV 1</div>
+    <div style="background-color:lightpink ; width: 100px"> DIV2  </div>
+    <!-- flex 1 is same as 1fr  -->
+    <div style="background-color:lightblue ; width: 100px;" > DIV 3</div>
+    <div style="background-color:lightpink; width: 100px;" > DIV 4</div>
+</div>
+
+<!-- you can align item either at start/center/end  -->
+<div style="
+margin-top: 20px;
+height: 100px;
+border-color: rgb(75, 61, 61);
+border-style: solid;
+border-width: 5px;
+justify-content: space-between;
+align-items: start;
+
+display: flex; 
+flex-direction: row;">
+
+    <div style="background-color:lightblue ;width: 100px;" > DIV 1</div>
+    <div style="background-color:lightpink ; width: 100px"> DIV2  </div>
+    <!-- flex 1 is same as 1fr  -->
+    <div style="background-color:lightblue ; width: 100px;" > DIV 3</div>
+    <div style="background-color:lightpink; width: 100px;" > DIV 4</div>
+</div>
+</body>
+</html>

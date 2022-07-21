@@ -1,0 +1,275 @@
+.header{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: #e1e1e1;
+    z-index: 100;
+    
+}
+.left-section{
+ 
+    align-items: center;
+    display: flex;
+    
+
+}
+
+.hamburger-menu,
+.youtube-logo{
+    cursor: pointer;
+}
+
+.hamburger-menu{
+  height: 24px;
+  margin-left: 25px;
+  margin-right: 27px;
+ 
+
+}
+
+.youtube-logo{
+    height: 20px
+    
+      
+    
+}
+/* middle section starts */
+.middle-section{
+    
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    
+    display: flex;
+    align-items: center;
+}
+.search-bar{
+
+    flex: 1;
+    height: 36px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(190, 190, 190);
+    border-radius: 2px;
+    box-shadow: inset 0.8px 0.8px 0.8px rgba(0, 0, 0, 0.15);
+    width: 0;
+}
+.search-bar::placeholder{
+
+    font-family: roboto, arial;
+    font-size: 16px;
+    
+}
+
+.search-button{
+    height: 40px;
+    width: 66px;
+    background-color: rgb(247, 247, 247);
+    border-width: 1px;
+    border-style: solid;
+    border-color:rgb(192, 189, 189) ;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.search-button,
+.voice-button,
+.upload-icon-text,
+.youtubeapp-text,
+.notification-text
+{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-button .tooltip,
+.voice-button .tooltip,
+.upload-icon-text .tooltip,
+.youtubeapp-text .tooltip,
+.notification-text .tooltip
+
+
+{
+    position: absolute;
+    background-color: gray;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    font-size: 12px;
+    bottom: -25px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+    font-family: roboto, arial;
+
+}
+
+
+.search-button:hover .tooltip,
+.voice-button:hover .tooltip,
+.upload-icon-text:hover .tooltip,
+.youtubeapp-text:hover .tooltip,
+.notification-text:hover .tooltip {
+
+    opacity: 1;
+}
+
+.voice-button{
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(251, 249, 249);
+    cursor: pointer;
+
+}
+
+.search-icon{
+    height: 25px;
+   
+
+}
+
+.voice-icon{
+    height: 24px;
+   
+    
+}
+
+/* Right section starts */
+.right-section{
+   
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 25px;
+    flex-shrink: 0;
+}
+
+.create-icon,
+.youtubeapp-icon,
+.number,
+.notification-icon,
+.my-icon{
+    cursor: pointer;
+}
+
+
+.create-icon{
+
+    height: 25px;
+   
+   
+}
+.youtubeapp-icon{
+    height: 25px;
+   
+
+   
+
+}
+.notification-number{
+
+    position:relative
+    
+}
+.number{
+    background-color: rgb(218, 37, 37);
+    color: white;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    font-family: roboto,arial;
+    font-size: 11px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    
+    border-radius: 11px;
+
+
+}
+.notification-icon{
+    height: 25px;
+   
+    
+}
+.my-icon{
+
+    height: 33px;  
+    border-radius: 17px;
+   
+}
+
+
+/* Second header  */
+.second-header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    z-index: 10;
+    position: fixed;
+    top: 60px;
+    left: 73px;
+    right: 0px;
+    padding: 10px;
+    border-bottom: 1px solid #e1e1e1;
+    white-space: nowrap;
+    
+    
+    
+   
+   
+    
+}
+
+.button-design {
+    margin: 3px;
+    cursor: pointer;
+    
+    border-radius: 21px;
+    padding: 10px;
+    border: 1px solid #cbcbcb
+    
+    
+     
+}
+
+
+.button-design:hover{
+
+    background-color: rgb(234, 233, 233);
+
+}
+.button-design:active{
+
+    background-color: black;
+    color: white;
+   
+}
+
+
+
+
